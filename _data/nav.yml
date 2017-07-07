@@ -1,0 +1,15 @@
+main:
+  - { url: '/', text: 'Home' }
+  - { url: '/over/', text: 'Over ons' }
+  - { url: '/diensten/', text: 'Diensten' }
+  - { url: '/blog/', text: 'Blog' }
+  - { url: '/contact/', text: 'Contact' }
+footer:
+  - { url: '/', text: 'Home' }
+  - { url: '/over/', text: 'Over ons' }
+  - { url: '/diensten/', text: 'Diensten' }
+  - { url: '/blog/', text: 'Blog' }
+  - { url: '/contact/', text: 'Contact' }
+klein:
+  - { url: '/privacy-policy/', text: 'Privacy' }
+  - { url: '/contact/', text: 'Contact' }
