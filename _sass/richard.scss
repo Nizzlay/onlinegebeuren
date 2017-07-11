@@ -7,6 +7,33 @@ body {
   background-color: #fff;
 }
 
+a {
+  color: #510083; /*FF8202 of 510083*/
+}
+
+a:hover  {
+  color: #FF8202;
+}
+a:active {
+
+}
+
+
+
+h2 {
+  color: #444 !important;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0 0 5px;
+}
+
 .logo {
   width: 100%;
 }
@@ -32,7 +59,6 @@ body {
 }
 
 .jumbo {
-  padding:25px;
   background: #f5f5f5;
 }
 .jumbo-title {
@@ -44,11 +70,68 @@ body {
 }
 
 @media (max-width: 768px) {
-  .jumbo {
-    padding:15px;
-  }
   .jumbo-title {
     font-size:1.4em;
     color: #444;
   }
  }
+
+ .container-paars {
+   background: #510083;
+   color: #fff;
+ }
+
+ .container-paars .glyphicon {
+   font-size: 4em;
+   margin-bottom: 10px;
+ }
+
+ .container-paars p {
+   padding: 0;
+   margin: 0;
+ }
+
+ .container-paars h2 {
+   color:#fff !important;
+   font-size: 1.8em;
+   font-weight: 600;
+ }
+
+.container-paars-firstp{
+  margin-bottom: 35px !important;
+}
+
+@media (max-width: 768px) {
+ .container-paars h2 {
+   color:#fff !important;
+   font-size: 1.4em;
+   font-weight: 600;
+ }
+
+ .container-paars p {
+   padding: 0 0 25px;
+   margin: 0;
+ }
+
+
+ .container-paars-firstp{
+   margin-bottom: 15px !important;
+ }
+
+ .container-paars-lastp{
+   margin: 0;
+   padding: 0 !important;
+ }
+
+
+}
+
+ .container-padding {
+   padding: 50px;
+ }
+
+ @media (max-width: 768px) {
+   .container-padding {
+     padding: 25px;
+   }
+  }
